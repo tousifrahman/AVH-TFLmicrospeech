@@ -4,7 +4,7 @@ workdir: ./
 backend:
   aws:
     ami-version: ~=1.3
-    instance-type: t2.xlarge
+    instance-type: c5.large
 upload:
   - micro_speech/**/*
   - Platform_FVP_Corstone_SSE-300_Ethos-U55/**/*
